@@ -1,0 +1,56 @@
+{% load cms_tags sekizai_tags %}
+{% load menu_tags %}
+
+{% load webdesign %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}" />
+    {% render_block "css" %}
+</head>
+
+<body>
+    {% cms_toolbar %}
+
+    <div id="page-wrapper">
+    
+        <div id="header">
+            <span id="logo-cell"><a href="/"><img id="logo" src="{% static 'small-logo.png' %}" alt="Logo" /></a></span>
+            <ul id="navlist">
+                <!--
+                <li><a href="/">Home</a></li
+                ><li><a href="/archive/">Archive</a></li
+                ><li><a href="/community/">Community</a></li
+                ><li><a href="http://hmpg.net/">Vendors</a></li
+                ><li><a href="http://hmpg.net/">Logout</a></li>
+                -->
+                {% show_menu 0 1 100 100 %}
+            </ul>
+        </div> <!-- end header -->
+
+        <div id="wrapper">
+            <div id="sidebar">
+                <form>
+                    <input type="text" /><br>
+                    <input type="submit" value="Pretend to search" />
+                </form> <br />
+                {% lorem %}
+            </div> <!-- end sidebar -->
+
+            <div id="content">
+                <ul id="cms-breadcrumb">{% show_breadcrumb %}</ul>
+                {% placeholder base_content %}
+                {% block base_content %}{% endblock %}
+            </div>
+        </div> <!-- end wrapper -->
+    </div> <!-- end page-wrapper -->
+
+    <div id="footer">
+        <a href="/faq/">Help</a> | <a href="/bug-report/">Report a bug</a> | <a href="/copyright/">Copyright and terms of use</a>
+    </div>
+
+    {% render_block "js" %}
+</body>
+</html>

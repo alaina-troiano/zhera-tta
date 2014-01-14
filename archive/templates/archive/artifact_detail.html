@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+
+<h2>{{ artifact }} ({{ artifact.universe }})</h2>
+<p>Description:</p>
+<p>{{ artifact.description|linebreaks }}</p>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+
+<p>Test event detail</p>
+
+{% if event %}
+    <ul>
+        <li>{{ event.title }}</li>
+        <li>{{ event.location }}</li>
+        <li>{{ event.start_time }}</li>
+        <li>{{ event.end_time }}</li>
+        <li>{{ event.description }}</li>
+    </ul>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+
+<h2>{{ character }}</h2>
+<ul>
+    <li>Home: {{ character.home }}</li>
+    <li>Species: {{ character.species }}</li>
+    <li>Language: {{ character.language }}</li>
+    {% if character.contact_person %}
+        <li>TTA Number: {{ character.contact_person.contact_number }}</li>
+    {% endif %}
+</ul>
+<p>Description:</p>
+<p>{{ character.description|linebreaks }}</p>
+
+{% endblock %}

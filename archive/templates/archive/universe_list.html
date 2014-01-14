@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+
+<h2>All universes</h2>
+{% if universe_list %}
+    <ul>
+    {% for universe in universe_list %}
+        <li><a href="{% url 'udetail' universe.pk %}">{{ universe.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no universes to display.</p>
+{% endif %}
+
+{% endblock %}

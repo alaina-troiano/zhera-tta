@@ -1,0 +1,6 @@
+Django==1.5.5
+south
+pil
+django-cms
+django-mptt
+django-sekizai

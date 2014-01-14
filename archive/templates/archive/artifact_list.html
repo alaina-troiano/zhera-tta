@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+
+<h2>All artifacts</h2>
+{% if artifact_list %}
+    <ul>
+    {% for artifact in artifact_list %}
+        <li><a href="{% url 'adetail' artifact.pk %}">{{ artifact.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no artifacts to display.</p>
+{% endif %}
+
+{% endblock %}
