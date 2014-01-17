@@ -1,0 +1,145 @@
+/* Reset */
+* {
+    margin: 0px;
+}
+
+/* Document-wide */
+body {
+    background-color: #e0e0e0; /* light grey */
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 5px;
+}
+ul {
+    list-style-position: inside;
+}
+/* The uls that show up when there are errors in forms */
+ul.errorlist {
+    font-weight: bold;
+    color: #a10000;
+    list-style-type: none;
+}
+form label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+span.fieldlabel {
+    display: inline-block;
+    width: 150px;
+}
+a:link {
+    color: #042765;
+}
+a:visited, a:active {
+    color: #12607f; /* turquoise */
+}
+a:hover {
+    color: #12607f;
+    text-decoration: none;
+}
+
+#page-wrapper {
+    display: table;
+    width: 100%;
+}
+
+/* Header */
+#header {
+    display: table-row;
+    position: relative;
+    background-color: #8496b0; /* light blue */
+}
+#header ul {
+    padding: 0;
+}
+#logo-cell {
+    display: table-cell;
+    width: 250px;
+}
+#logo {
+}
+
+/* Navigation bar (inside the header) */
+#navlist {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: right;
+    font-size: 150%;
+}
+#navlist li {
+    display: inline;
+}
+#navlist a {
+    padding: 10px;
+    text-decoration: none;
+}
+#navlist a:link, #navlist a:visited {
+    color: #042765; /* dark blue */
+}
+#navlist a:hover {
+    color: #e0e0e0;
+}
+/* Specifically for the drop-down styling of the cms menu */
+#navlist li ul {
+    display: none;
+}
+#navlist li:hover ul, #navlist li.hover ul {
+    /*position: absolute;*/
+    display: inline;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#navlist li ul li {
+    display: block;
+}
+/* end drop-down cms menu */
+
+/* Wrapper (includes sidebar and content) */
+#wrapper {
+    display: table-row;
+}
+
+/* Left sidebar */
+#sidebar {
+    display: table-cell;
+    background: #d0d0d0;
+    width: 250px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Main part of page */
+#content {
+    display: table-cell;
+    padding: 10px;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    font-size: 80%;
+}
+
+
+/*#cms-nav {
+    display: inline;
+}
+#cms-nav li {
+    display: inline;
+}*/
+
+#cms-breadcrumb {
+    list-style-type: none;
+    padding: 0px;
+}
+#cms-breadcrumb li {
+    display: inline;
+}
