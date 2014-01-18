@@ -24,6 +24,9 @@ class Universe(models.Model):
     time_difference = models.CharField(max_length=256)
     parent = models.ForeignKey('self', null=True, blank=True, verbose_name="parent universe")
     description = models.TextField()
+    
+    class Meta:
+        ordering = ['title']
 
     def __unicode__(self):
         return str(self.title)
@@ -47,6 +50,9 @@ class Character(models.Model):
     language = models.CharField("native language", max_length=256, default='English')
     description = models.TextField("biographical information")
 
+    class Meta:
+        ordering = ['name']
+    
     def __unicode__(self):
         return str(self.name)
 
@@ -79,6 +85,9 @@ class Artifact(models.Model):
     name = models.CharField(max_length=256)
     universe = models.ForeignKey(Universe)
     description = models.TextField()
+    
+    class Meta:
+        ordering = ['name']
     
     def __unicode__(self):
         return str(self.name)

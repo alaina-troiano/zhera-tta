@@ -10,7 +10,6 @@
     <li>Contact person: <a href="{% url 'cdetail' universe.contact_person.character.pk %}"
         >{{ universe.contact_person }}</a> ({{ universe.contact_person.contact_number }})</li>
 </ul>
-<p>Description:</p>
 <p>{{ universe.description|linebreaks }}</p>
 
 {% endblock %}

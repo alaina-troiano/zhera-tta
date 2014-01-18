@@ -81,7 +81,7 @@ STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     
     # *** THIS IS TEMPORARY ***
-    '/home/atroiano/Django/tta/global/static/',
+    '/home/alaina/Documents/Django/tta/global/static/',
 )
 
 # List of finder classes that know how to find static files in
