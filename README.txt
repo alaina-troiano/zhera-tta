@@ -1,3 +1,6 @@
+The information in the fixtures (other than the CMS one) is subject to change and additions.
+
+
 Steps to start running this project quickly with Django's development server:
 
 Clone the repo
