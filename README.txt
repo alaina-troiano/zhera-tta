@@ -1,8 +1,16 @@
+About
+-----
+"All fiction is real, it just takes place in other universes." --Alexander Moses Moffett
+The Transverse Traveler Association is a group of people with the ability to travel between universes. The history of this group has not yet been determined, but it includes a character named Zhera with a better-established history.
+
+
+Disclaimers
+-----------
 The information in the fixtures (other than the CMS one) is subject to change and additions.
 
 
-Steps to start running this project quickly with Django's development server:
-
+Quick start
+-----------
 Clone the repo
 Put a virtual environment in it
 pip install -r requirements.txt

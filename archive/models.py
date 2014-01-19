@@ -3,6 +3,7 @@ from django.core.urlresolvers import reverse
 
 # Define Manager classes before their models
 
+# Model for information about a universe
 class Universe(models.Model):
     BOOK = 'Book'
     COMIC = 'Graphic novel'
@@ -31,10 +32,7 @@ class Universe(models.Model):
     def __unicode__(self):
         return str(self.title)
 
-    #def get_absolute_url(self):
-    #    return reverse('zverse:udetail', kwargs={'pk': self.pk})
-
-    # contactperson_set has only one object in it, return that
+    # Returns the associated ContactPerson object
     def _get_contact_person(self):
         mylist = self.contactperson_set.all()
         if (len(mylist) == 0):
@@ -43,6 +41,7 @@ class Universe(models.Model):
     contact_person = property(_get_contact_person)
 
 
+# Model for information about a character
 class Character(models.Model):
     name = models.CharField(max_length=256)
     home = models.ForeignKey(Universe, verbose_name="universe of origin")
@@ -55,11 +54,9 @@ class Character(models.Model):
     
     def __unicode__(self):
         return str(self.name)
-
-    #def get_absolute_url(self):
-    #    return reverse('zverse:cdetail', kwargs={'pk': self.pk})
     
-    # contactperson_set has only one object in it, return that
+    # Returns the associated ContactPerson object
+    # Purpose: ability to display the TTA number on a Character detail page
     def _get_contact_person(self):
         mylist = self.contactperson_set.all()
         if (len(mylist) == 0):
@@ -68,6 +65,7 @@ class Character(models.Model):
     contact_person = property(_get_contact_person)
 
 
+# Connects at most one Character to each Universe, with a couple more details.
 class ContactPerson(models.Model):
     universe = models.ForeignKey(Universe, unique=True)
     character = models.ForeignKey(Character)
@@ -81,6 +79,7 @@ class ContactPerson(models.Model):
         return str(self.character.name)
 
 
+# Model for items with properties special enough to need archive pages.
 class Artifact(models.Model):
     name = models.CharField(max_length=256)
     universe = models.ForeignKey(Universe)

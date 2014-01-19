@@ -1,6 +1,6 @@
 Django==1.5.5
-south
-pil
-django-cms
-django-mptt
-django-sekizai
+south==0.8.4
+pil==1.1.6
+django-cms==2.4.3
+django-mptt==0.6.0
+django-sekizai==0.7.0
