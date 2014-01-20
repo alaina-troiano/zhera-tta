@@ -139,6 +139,7 @@ a:hover {
 #cms-breadcrumb {
     list-style-type: none;
     padding: 0px;
+    background-color: #d0d0d0;
 }
 #cms-breadcrumb li {
     display: inline;

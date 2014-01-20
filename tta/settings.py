@@ -202,8 +202,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 CMS_TEMPLATES = (
-    ('home.html', 'Home page template'),
-    ('textpage.html', 'Text page template'),
+    ('cms_page.html', 'The only template you need'),
 )
 
 LANGUAGES = [
