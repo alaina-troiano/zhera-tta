@@ -1,7 +1,13 @@
 from django.db import models
 from django.core.urlresolvers import reverse
 
-# Define Manager classes before their models
+
+# A Manager for retrieving only the game universes
+class GameManager(models.Manager):
+    def get_query_set(self):
+        qs = super(GameManager, self).get_query_set()
+        return qs.filter(medium=Universe.GAME).order_by('title')
+
 
 # Model for information about a universe
 class Universe(models.Model):
@@ -25,6 +31,11 @@ class Universe(models.Model):
     time_difference = models.CharField(max_length=256)
     parent = models.ForeignKey('self', null=True, blank=True, verbose_name="parent universe")
     description = models.TextField()
+    
+    # This is the default manager; it must be declared first.
+    objects = models.Manager()
+    # Universe.games will now refer to only the game universes.
+    games = GameManager()
     
     class Meta:
         ordering = ['title']

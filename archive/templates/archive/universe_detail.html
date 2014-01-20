@@ -7,8 +7,9 @@
     <li>Medium: {{ universe.medium }}</li>
     <li>Time difference: {{ universe.time_difference }}</li>
     <li>Parent universe: {{ universe.parent }}</li>
-    <li>Contact person: <a href="{% url 'cdetail' universe.contact_person.character.pk %}"
-        >{{ universe.contact_person }}</a> ({{ universe.contact_person.contact_number }})</li>
+    <li>Contact person: {% if universe.contact_person %}<a href="{% url 'cdetail' universe.contact_person.character.pk %}"
+        >{{ universe.contact_person }}</a> ({{ universe.contact_person.contact_number }})
+    {% else %}None{% endif %}</li>
 </ul>
 <p>{{ universe.description|linebreaks }}</p>
 

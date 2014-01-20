@@ -3,7 +3,8 @@
 {% block base_content %}
 <h1>Welcome to the Archive</h1>
 <ul>
-    <li><a href="{% url 'ulist' %}">List of universes</a></li>
+    <li><a href="{% url 'ulist' %}">List of all universes</a></li>
+        <ul><li><a href="{% url 'glist' %}">List of game universes</a></li></ul>
     <li><a href="{% url 'clist' %}">List of characters</a></li>
     <li><a href="{% url 'alist' %}">List of artifacts</a></li>
     <li><a href="/archive/documents/">Other documents</a></li>
