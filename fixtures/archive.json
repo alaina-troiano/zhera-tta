@@ -1,1 +1,349 @@
-[{"pk": 1, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "0 (reference point)", "description": "Story and parent universe unknown.", "parent": null, "title": "Zhera's home world"}}, {"pk": 2, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "0", "description": "Story and parent universe unknown; probably shares a parent with Zhera's home world. Branch point from Zhera's home world is probably in 1998.", "parent": null, "title": "Karen's home world"}}, {"pk": 3, "model": "archive.universe", "fields": {"medium": "Live-action", "time_difference": "0", "description": "American adaptation of the Japanese \"Super Sentai\".", "parent": 1, "title": "Power Rangers"}}, {"pk": 4, "model": "archive.universe", "fields": {"medium": "Live-action", "time_difference": "0", "description": "Parent universe unknown. Alternate form of Power Rangers, branch point prior to 2003.", "parent": null, "title": "Hexagon"}}, {"pk": 5, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "unknown", "description": "The form of the Tolkienverse that comes from universes where the Silmarillion and other posthumous works were never published. Called \"boxed\" because it consists of only the Hobbit and the trilogy, which are often sold as a boxed set.", "parent": null, "title": "Tolkienverse (boxed)"}}, {"pk": 6, "model": "archive.universe", "fields": {"medium": "Live-action", "time_difference": "unknown", "description": "The Lord of the Rings and Hobbit films from universes where they were all directed by Peter Jackson.", "parent": 1, "title": "Tolkienverse (Jackson films)"}}, {"pk": 7, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "unknown", "description": "It has been hypothesized that wizards can be found among all sentient species, as Hogwarts owls have managed to get across universes to reach non-humans. However, negotiations with the Ministry of Magic have stalled, and as it stands, travelers from other universes are forbidden to enter this universe unless it pertains to those negotiations, even to attend Hogwarts.", "parent": 1, "title": "Harry Potter"}}, {"pk": 8, "model": "archive.universe", "fields": {"medium": "Live-action", "time_difference": "unknown", "description": "Highly volatile. TTA members are forbidden from entering this universe without a majority vote from the Council.", "parent": 1, "title": "Whoniverse"}}, {"pk": 9, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "unknown", "description": "Magic is programming and the universe runs Linux.\r\nHas an undetermined number of not-deities, called the Powers that Be, who regulate the use of magic.", "parent": 1, "title": "Young Wizards"}}, {"pk": 10, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "-6.4 hours", "description": "Once upon a time, one dark hero gathered ten other remarkable people, and together they saved the world. The hero sacrificed himself in the task, but the others live on. Also, the sun passes through the earth once a month.\r\n\r\nThe main character Meros guards this world. He is an extraordinarily powerful telepath, and he will always be aware of travelers coming in. He has requested that no travelers come in at this time, and that all traffic go through him if at all possible.", "parent": 1, "title": "Alturon"}}, {"pk": 11, "model": "archive.universe", "fields": {"medium": "Book", "time_difference": "+10.7 hours", "description": "Once upon a time, a Ragtag Bunch of Misfits managed to Wake Up, Go To School, Save The World from an Alien Invasion. Now, one is dead, one is depressed, one is a depressed bird, one is super busy, and the last is rich and famous. Guess which one Zhera tends to ask favors of.\r\n\r\nBranch point is 1997 or earlier. Probably earlier.", "parent": 1, "title": "Animorphs"}}, {"pk": 12, "model": "archive.universe", "fields": {"medium": "Animation", "time_difference": "Variable", "description": "Full title: \"My Little Pony: Friendship is Magic\", the fourth generation of the MLP franchise.\r\n\r\nPlease note that travelers will take the forms of native creatures upon entering this universe. Humans will become ponies, while other sentient beings may become ponies or other creatures; the mapping has not been fully discovered.", "parent": 1, "title": "FiM"}}, {"pk": 13, "model": "archive.universe", "fields": {"medium": "Game", "time_difference": "Variable", "description": "Don't. Just don't.", "parent": 1, "title": "Homestuck"}}, {"pk": 1, "model": "archive.character", "fields": {"home": 1, "description": "Founder of the TTA.", "name": "Zhera", "language": "English", "species": "Human"}}, {"pk": 2, "model": "archive.character", "fields": {"home": 7, "description": "Nothing has been decided about this character yet.", "name": "Unnamed MoM person", "language": "English", "species": "Human"}}, {"pk": 3, "model": "archive.character", "fields": {"home": 9, "description": "Senior wizards for their region. May or may not be a couple.", "name": "Tom and Carl", "language": "English", "species": "Human"}}, {"pk": 4, "model": "archive.character", "fields": {"home": 10, "description": "A man of many talents. Short, with white anime hair. And a veil. And really bizarre clothing.", "name": "Meros", "language": "English", "species": "Human"}}, {"pk": 5, "model": "archive.character", "fields": {"home": 11, "description": "Surname withheld. Lives fabulously in California after having helped save the world.", "name": "Marco", "language": "English", "species": "Human"}}, {"pk": 6, "model": "archive.character", "fields": {"home": 11, "description": "Something something Ellimist, Crayak, Drode.", "name": "Arch-duals", "language": "English", "species": "Human"}}, {"pk": 7, "model": "archive.character", "fields": {"home": 12, "description": "Celestia and Luna; more to follow.", "name": "Diarchs", "language": "English", "species": "Human"}}, {"pk": 8, "model": "archive.character", "fields": {"home": 12, "description": "Also known as \"the mane six\"; more to follow.", "name": "Elements", "language": "English", "species": "Human"}}, {"pk": 9, "model": "archive.character", "fields": {"home": 12, "description": "Derpy Hooves. More reliable than she seems.", "name": "DH", "language": "English", "species": "Human"}}, {"pk": 1, "model": "archive.contactperson", "fields": {"universe": 1, "contact_number": 11111, "character": 1, "lodging": false}}, {"pk": 2, "model": "archive.contactperson", "fields": {"universe": 7, "contact_number": 70000, "character": 2, "lodging": false}}, {"pk": 3, "model": "archive.contactperson", "fields": {"universe": 9, "contact_number": 11112, "character": 3, "lodging": true}}, {"pk": 4, "model": "archive.contactperson", "fields": {"universe": 10, "contact_number": 11111, "character": 4, "lodging": false}}, {"pk": 5, "model": "archive.contactperson", "fields": {"universe": 11, "contact_number": 90210, "character": 5, "lodging": true}}, {"pk": 6, "model": "archive.contactperson", "fields": {"universe": 12, "contact_number": 33779, "character": 9, "lodging": true}}, {"pk": 1, "model": "archive.artifact", "fields": {"universe": 1, "name": "TTA phone", "description": "Collaborative technological effort to provide phone-like communication across universes.\r\n\r\nUtilizes the following elements:\r\n--The innards of a plot-magicked long-range communications device, such as a Star Trek communicator\r\n--An unlimited power source, if not found in the communications device\r\n--A recycled smartphone chassis, screen and other necessary parts to get the whole thing working"}}, {"pk": 2, "model": "archive.artifact", "fields": {"universe": 3, "name": "Zeo Crystal", "description": "The source of the Zeo Rangers' powers. The story did not indicate what happened to it after the Rangers shifted to Turbo powers. Zhera eventually tracked it down and used it to power her appliances."}}, {"pk": 3, "model": "archive.artifact", "fields": {"universe": 4, "name": "Unnamed traveling technology", "description": "Developed by Hexagon and used by Jim."}}, {"pk": 4, "model": "archive.artifact", "fields": {"universe": 8, "name": "Timey Wimey Ball", "description": "To be written..."}}, {"pk": 5, "model": "archive.artifact", "fields": {"universe": 11, "name": "Escafil device", "description": "It's blue. If you touch it, it makes your hand go all tingly."}}]
+[
+{
+  "pk": 1, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "0 (reference point)", 
+    "description": "Story and parent universe unknown.", 
+    "parent": null, 
+    "title": "Zhera's home world"
+  }
+},
+{
+  "pk": 2, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "0", 
+    "description": "Story and parent universe unknown; probably shares a parent with Zhera's home world. Branch point from Zhera's home world is probably in 1998.", 
+    "parent": null, 
+    "title": "Karen's home world"
+  }
+},
+{
+  "pk": 3, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Live-action", 
+    "time_difference": "0", 
+    "description": "American adaptation of the Japanese \"Super Sentai\".", 
+    "parent": 1, 
+    "title": "Power Rangers"
+  }
+},
+{
+  "pk": 4, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Live-action", 
+    "time_difference": "0", 
+    "description": "Parent universe unknown. Alternate form of Power Rangers, branch point prior to 2003.", 
+    "parent": null, 
+    "title": "Hexagon"
+  }
+},
+{
+  "pk": 5, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "unknown", 
+    "description": "The form of the Tolkienverse that comes from universes where the Silmarillion and other posthumous works were never published. Called \"boxed\" because it consists of only the Hobbit and the trilogy, which are often sold as a boxed set.", 
+    "parent": null, 
+    "title": "Tolkienverse (boxed)"
+  }
+},
+{
+  "pk": 6, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Live-action", 
+    "time_difference": "unknown", 
+    "description": "The Lord of the Rings and Hobbit films from universes where they were all directed by Peter Jackson.", 
+    "parent": 1, 
+    "title": "Tolkienverse (Jackson films)"
+  }
+},
+{
+  "pk": 7, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "unknown", 
+    "description": "It has been hypothesized that wizards can be found among all sentient species, as Hogwarts owls have managed to get across universes to reach non-humans. However, negotiations with the Ministry of Magic have stalled, and as it stands, travelers from other universes are forbidden to enter this universe unless it pertains to those negotiations, even to attend Hogwarts.", 
+    "parent": 1, 
+    "title": "Harry Potter"
+  }
+},
+{
+  "pk": 8, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Live-action", 
+    "time_difference": "unknown", 
+    "description": "Highly volatile. TTA members are forbidden from entering this universe without a majority vote from the Council.", 
+    "parent": 1, 
+    "title": "Whoniverse"
+  }
+},
+{
+  "pk": 9, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "unknown", 
+    "description": "Magic is programming and the universe runs Linux.\r\nHas an undetermined number of not-deities, called the Powers that Be, who regulate the use of magic.", 
+    "parent": 1, 
+    "title": "Young Wizards"
+  }
+},
+{
+  "pk": 10, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "-6.4 hours", 
+    "description": "Once upon a time, one dark hero gathered ten other remarkable people, and together they saved the world. The hero sacrificed himself in the task, but the others live on. Also, the sun passes through the earth once a month.\r\n\r\nThe main character Meros guards this world. He is an extraordinarily powerful telepath, and he will always be aware of travelers coming in. He has requested that no travelers come in at this time, and that all traffic go through him if at all possible.", 
+    "parent": 1, 
+    "title": "Alturon"
+  }
+},
+{
+  "pk": 11, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "+10.7 hours", 
+    "description": "Once upon a time, a Ragtag Bunch of Misfits managed to Wake Up, Go To School, Save The World from an Alien Invasion. Now, one is dead, one is depressed, one is a depressed bird, one is super busy, and the last is rich and famous. Guess which one Zhera tends to ask favors of.\r\n\r\nBranch point is 1997 or earlier. Probably earlier.", 
+    "parent": 1, 
+    "title": "Animorphs"
+  }
+},
+{
+  "pk": 12, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Animation", 
+    "time_difference": "Variable", 
+    "description": "Full title: \"My Little Pony: Friendship is Magic\", the fourth generation of the MLP franchise.\r\n\r\nPlease note that travelers will take the forms of native creatures upon entering this universe. Humans will become ponies, while other sentient beings may become ponies or other creatures; the mapping has not been fully discovered.", 
+    "parent": 1, 
+    "title": "FiM"
+  }
+},
+{
+  "pk": 13, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Game", 
+    "time_difference": "Variable", 
+    "description": "Don't. Just don't.", 
+    "parent": 1, 
+    "title": "Homestuck"
+  }
+},
+{
+  "pk": 1, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 1, 
+    "description": "Founder of the TTA.", 
+    "name": "Zhera", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 2, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 7, 
+    "description": "Nothing has been decided about this character yet.", 
+    "name": "Unnamed MoM person", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 3, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 9, 
+    "description": "Senior wizards for their region. May or may not be a couple.", 
+    "name": "Tom and Carl", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 4, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 10, 
+    "description": "A man of many talents. Short, with white anime hair. And a veil. And really bizarre clothing.", 
+    "name": "Meros", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 5, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 11, 
+    "description": "Surname withheld. Lives fabulously in California after having helped save the world.", 
+    "name": "Marco", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 6, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 11, 
+    "description": "Something something Ellimist, Crayak, Drode.", 
+    "name": "Arch-duals", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 7, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 12, 
+    "description": "Celestia and Luna; more to follow.", 
+    "name": "Diarchs", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 8, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 12, 
+    "description": "Also known as \"the mane six\"; more to follow.", 
+    "name": "Elements", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 9, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 12, 
+    "description": "Derpy Hooves. More reliable than she seems.", 
+    "name": "DH", 
+    "language": "English", 
+    "species": "Human"
+  }
+},
+{
+  "pk": 1, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 1, 
+    "contact_number": 11111, 
+    "character": 1, 
+    "lodging": false
+  }
+},
+{
+  "pk": 2, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 7, 
+    "contact_number": 70000, 
+    "character": 2, 
+    "lodging": false
+  }
+},
+{
+  "pk": 3, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 9, 
+    "contact_number": 11112, 
+    "character": 3, 
+    "lodging": true
+  }
+},
+{
+  "pk": 4, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 10, 
+    "contact_number": 11111, 
+    "character": 4, 
+    "lodging": false
+  }
+},
+{
+  "pk": 5, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 11, 
+    "contact_number": 90210, 
+    "character": 5, 
+    "lodging": true
+  }
+},
+{
+  "pk": 6, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 12, 
+    "contact_number": 33779, 
+    "character": 9, 
+    "lodging": true
+  }
+},
+{
+  "pk": 1, 
+  "model": "archive.artifact", 
+  "fields": {
+    "universe": 1, 
+    "name": "TTA phone", 
+    "description": "Collaborative technological effort to provide phone-like communication across universes.\r\n\r\nUtilizes the following elements:\r\n--The innards of a plot-magicked long-range communications device, such as a Star Trek communicator\r\n--An unlimited power source, if not found in the communications device\r\n--A recycled smartphone chassis, screen and other necessary parts to get the whole thing working"
+  }
+},
+{
+  "pk": 2, 
+  "model": "archive.artifact", 
+  "fields": {
+    "universe": 3, 
+    "name": "Zeo Crystal", 
+    "description": "The source of the Zeo Rangers' powers. The story did not indicate what happened to it after the Rangers shifted to Turbo powers. Zhera eventually tracked it down and used it to power her appliances."
+  }
+},
+{
+  "pk": 3, 
+  "model": "archive.artifact", 
+  "fields": {
+    "universe": 4, 
+    "name": "Unnamed traveling technology", 
+    "description": "Developed by Hexagon and used by Jim."
+  }
+},
+{
+  "pk": 4, 
+  "model": "archive.artifact", 
+  "fields": {
+    "universe": 8, 
+    "name": "Timey Wimey Ball", 
+    "description": "To be written..."
+  }
+},
+{
+  "pk": 5, 
+  "model": "archive.artifact", 
+  "fields": {
+    "universe": 11, 
+    "name": "Escafil device", 
+    "description": "It's blue. If you touch it, it makes your hand go all tingly."
+  }
+}
+]
