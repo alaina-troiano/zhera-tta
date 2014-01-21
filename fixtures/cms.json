@@ -1022,6 +1022,176 @@
   }
 },
 {
+  "pk": 27, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:42:56.546Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:42:22.331Z", 
+    "lft": 1, 
+    "tree_id": 27, 
+    "position": 0, 
+    "placeholder": 18, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 28, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:43:02.684Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:42:22.331Z", 
+    "lft": 1, 
+    "tree_id": 28, 
+    "position": 0, 
+    "placeholder": 20, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 29, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:43:50.167Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:43:29.852Z", 
+    "lft": 1, 
+    "tree_id": 29, 
+    "position": 0, 
+    "placeholder": 22, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 30, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:43:53.984Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:43:29.852Z", 
+    "lft": 1, 
+    "tree_id": 30, 
+    "position": 0, 
+    "placeholder": 24, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 31, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:44:38.515Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:44:13.028Z", 
+    "lft": 1, 
+    "tree_id": 31, 
+    "position": 0, 
+    "placeholder": 26, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 32, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:44:42.388Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:44:13.028Z", 
+    "lft": 1, 
+    "tree_id": 32, 
+    "position": 0, 
+    "placeholder": 29, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 33, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:45:22.222Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:45:02.294Z", 
+    "lft": 1, 
+    "tree_id": 33, 
+    "position": 0, 
+    "placeholder": 32, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 34, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:45:26.272Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:45:02.294Z", 
+    "lft": 1, 
+    "tree_id": 34, 
+    "position": 0, 
+    "placeholder": 34, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 35, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:45:52.821Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:45:43.501Z", 
+    "lft": 1, 
+    "tree_id": 35, 
+    "position": 0, 
+    "placeholder": 80, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 36, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:45:57.869Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:45:43.501Z", 
+    "lft": 1, 
+    "tree_id": 36, 
+    "position": 0, 
+    "placeholder": 82, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
   "pk": 1, 
   "model": "cms.page", 
   "fields": {
@@ -1177,7 +1347,7 @@
       17, 
       18
     ], 
-    "changed_date": "2014-01-20T02:02:03.466Z", 
+    "changed_date": "2014-01-21T21:43:02.695Z", 
     "limit_visibility_in_menu": null, 
     "parent": 1, 
     "publisher_state": 0, 
@@ -1210,7 +1380,7 @@
       19, 
       20
     ], 
-    "changed_date": "2014-01-20T02:02:03.431Z", 
+    "changed_date": "2014-01-21T21:43:02.639Z", 
     "limit_visibility_in_menu": null, 
     "parent": 2, 
     "publisher_state": 0, 
@@ -1243,7 +1413,7 @@
       21, 
       22
     ], 
-    "changed_date": "2014-01-20T02:02:11.337Z", 
+    "changed_date": "2014-01-21T21:43:53.995Z", 
     "limit_visibility_in_menu": null, 
     "parent": 1, 
     "publisher_state": 0, 
@@ -1276,7 +1446,7 @@
       23, 
       24
     ], 
-    "changed_date": "2014-01-20T02:02:11.302Z", 
+    "changed_date": "2014-01-21T21:43:53.942Z", 
     "limit_visibility_in_menu": null, 
     "parent": 2, 
     "publisher_state": 0, 
@@ -1310,7 +1480,7 @@
       26, 
       27
     ], 
-    "changed_date": "2014-01-20T02:03:19.347Z", 
+    "changed_date": "2014-01-21T21:44:42.413Z", 
     "limit_visibility_in_menu": null, 
     "parent": null, 
     "publisher_state": 0, 
@@ -1344,7 +1514,7 @@
       29, 
       30
     ], 
-    "changed_date": "2014-01-20T02:03:19.299Z", 
+    "changed_date": "2014-01-21T21:44:42.336Z", 
     "limit_visibility_in_menu": null, 
     "parent": null, 
     "publisher_state": 0, 
@@ -1377,7 +1547,7 @@
       31, 
       32
     ], 
-    "changed_date": "2014-01-20T02:04:36.535Z", 
+    "changed_date": "2014-01-21T21:45:26.283Z", 
     "limit_visibility_in_menu": null, 
     "parent": null, 
     "publisher_state": 0, 
@@ -1410,7 +1580,7 @@
       33, 
       34
     ], 
-    "changed_date": "2014-01-20T02:04:36.491Z", 
+    "changed_date": "2014-01-21T21:45:26.223Z", 
     "limit_visibility_in_menu": null, 
     "parent": null, 
     "publisher_state": 0, 
@@ -1973,7 +2143,7 @@
       79, 
       80
     ], 
-    "changed_date": "2014-01-20T02:04:47.008Z", 
+    "changed_date": "2014-01-21T21:45:57.880Z", 
     "limit_visibility_in_menu": null, 
     "parent": 15, 
     "publisher_state": 0, 
@@ -2006,7 +2176,7 @@
       81, 
       82
     ], 
-    "changed_date": "2014-01-20T02:04:46.971Z", 
+    "changed_date": "2014-01-21T21:45:57.826Z", 
     "limit_visibility_in_menu": null, 
     "parent": 16, 
     "publisher_state": 0, 
@@ -2081,61 +2251,6 @@
     "changed_by": "admin", 
     "publisher_is_draft": false, 
     "published": true
-  }
-},
-{
-  "pk": 3, 
-  "model": "cms.pagemoderatorstate", 
-  "fields": {
-    "action": "ADD", 
-    "message": "", 
-    "created": "2014-01-20T14:54:14.367Z", 
-    "page": 9, 
-    "user": null
-  }
-},
-{
-  "pk": 4, 
-  "model": "cms.pagemoderatorstate", 
-  "fields": {
-    "action": "ADD", 
-    "message": "", 
-    "created": "2014-01-20T14:54:14.387Z", 
-    "page": 11, 
-    "user": null
-  }
-},
-{
-  "pk": 5, 
-  "model": "cms.pagemoderatorstate", 
-  "fields": {
-    "action": "ADD", 
-    "message": "", 
-    "created": "2014-01-20T14:54:14.408Z", 
-    "page": 13, 
-    "user": null
-  }
-},
-{
-  "pk": 6, 
-  "model": "cms.pagemoderatorstate", 
-  "fields": {
-    "action": "ADD", 
-    "message": "", 
-    "created": "2014-01-20T14:54:14.430Z", 
-    "page": 15, 
-    "user": null
-  }
-},
-{
-  "pk": 15, 
-  "model": "cms.pagemoderatorstate", 
-  "fields": {
-    "action": "ADD", 
-    "message": "", 
-    "created": "2014-01-20T14:54:14.622Z", 
-    "page": 33, 
-    "user": null
   }
 },
 {
@@ -2898,6 +3013,76 @@
   "model": "text.text", 
   "fields": {
     "body": "<h2>Forbidden universes</h2><p>The following universes are off-limits to TTA members:</p><p>Star Wars (Force poisoning)<br>The Big Bang Theory</p>"
+  }
+},
+{
+  "pk": 27, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Bug report form</h2><p>This could get tricky. I want a form here, not a CMS page. I can probably override this in the default URLconf.</p>"
+  }
+},
+{
+  "pk": 28, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Bug report form</h2><p>This could get tricky. I want a form here, not a CMS page. I can probably override this in the default URLconf.</p>"
+  }
+},
+{
+  "pk": 29, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Copyright and licensing information</h2><p>Dummy text! Yay!</p>"
+  }
+},
+{
+  "pk": 30, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Copyright and licensing information</h2><p>Dummy text! Yay!</p>"
+  }
+},
+{
+  "pk": 31, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>Dummy text! Yay! (This CMS page should be overridden by the Django view.)</p>"
+  }
+},
+{
+  "pk": 32, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>Dummy text! Yay! (This CMS page should be overridden by the Django view.)</p>"
+  }
+},
+{
+  "pk": 33, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>I don't know what I want to go on this page. \"Community\" will eventually have something like a forum.</p>"
+  }
+},
+{
+  "pk": 34, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>I don't know what I want to go on this page. \"Community\" will eventually have something like a forum.</p>"
+  }
+},
+{
+  "pk": 35, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Forum rules</h2><p>Be nice.</p>"
+  }
+},
+{
+  "pk": 36, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Forum rules</h2><p>Be nice.</p>"
   }
 }
 ]
