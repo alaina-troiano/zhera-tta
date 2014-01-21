@@ -143,6 +143,50 @@
   }
 },
 {
+  "pk": 14, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "Unknown", 
+    "description": "Has a character named Zhera for which the TTA member was named.", 
+    "parent": 1, 
+    "title": "Space Quest (working name)"
+  }
+},
+{
+  "pk": 15, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Live-action", 
+    "time_difference": "Unknown", 
+    "description": "Use extreme caution. Many-worlds-model multiverse; this article concerns the main universe that the story documents.", 
+    "parent": 1, 
+    "title": "Stargate"
+  }
+},
+{
+  "pk": 16, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Game", 
+    "time_difference": "Variable", 
+    "description": "Zhera was here and found some kind of intelligent weapon. Maybe.", 
+    "parent": 1, 
+    "title": "Unnamed TRPG"
+  }
+},
+{
+  "pk": 17, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "0", 
+    "description": "Not much happens around here. It can be a good place to hide out.", 
+    "parent": 1, 
+    "title": "Twilight saga"
+  }
+},
+{
   "pk": 1, 
   "model": "archive.character", 
   "fields": {
@@ -205,7 +249,7 @@
     "description": "Something something Ellimist, Crayak, Drode.", 
     "name": "Arch-duals", 
     "language": "English", 
-    "species": "Human"
+    "species": "Super-sapient"
   }
 },
 {
@@ -216,7 +260,7 @@
     "description": "Celestia and Luna; more to follow.", 
     "name": "Diarchs", 
     "language": "English", 
-    "species": "Human"
+    "species": "Alicorn"
   }
 },
 {
@@ -238,7 +282,29 @@
     "description": "Derpy Hooves. More reliable than she seems.", 
     "name": "DH", 
     "language": "English", 
-    "species": "Human"
+    "species": "Pegasus"
+  }
+},
+{
+  "pk": 10, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 14, 
+    "description": "Under construction.", 
+    "name": "Rayel", 
+    "language": "English", 
+    "species": "Unnamed dragonborn-like species"
+  }
+},
+{
+  "pk": 11, 
+  "model": "archive.character", 
+  "fields": {
+    "home": 17, 
+    "description": "All-around nice guy, and a doctor to boot. Has arranged asylum for multiple refugees; provides lodging to travelers under emergency conditions.", 
+    "name": "Carlisle Cullen", 
+    "language": "English", 
+    "species": "Vampire"
   }
 },
 {
@@ -302,6 +368,16 @@
   }
 },
 {
+  "pk": 7, 
+  "model": "archive.contactperson", 
+  "fields": {
+    "universe": 17, 
+    "contact_number": 11113, 
+    "character": 11, 
+    "lodging": true
+  }
+},
+{
   "pk": 1, 
   "model": "archive.artifact", 
   "fields": {
@@ -344,6 +420,15 @@
     "universe": 11, 
     "name": "Escafil device", 
     "description": "It's blue. If you touch it, it makes your hand go all tingly."
+  }
+},
+{
+  "pk": 6, 
+  "model": "archive.artifact", 
+  "fields": {
+    "universe": 15, 
+    "name": "Stargate", 
+    "description": "Extremely shiny."
   }
 }
 ]

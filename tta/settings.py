@@ -203,6 +203,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('cms_page.html', 'The only template you need'),
+    ('documents.html', 'Document list page'),
+    ('membership.html', 'Membership documents page'),
 )
 
 LANGUAGES = [

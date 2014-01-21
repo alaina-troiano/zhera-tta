@@ -632,11 +632,27 @@
   }
 },
 {
+  "pk": 91, 
+  "model": "cms.placeholder", 
+  "fields": {
+    "slot": "base_content", 
+    "default_width": null
+  }
+},
+{
+  "pk": 92, 
+  "model": "cms.placeholder", 
+  "fields": {
+    "slot": "base_content", 
+    "default_width": null
+  }
+},
+{
   "pk": 1, 
   "model": "cms.cmsplugin", 
   "fields": {
     "rght": 2, 
-    "changed_date": "2014-01-20T14:48:52.279Z", 
+    "changed_date": "2014-01-21T20:26:31.936Z", 
     "parent": null, 
     "language": "en", 
     "level": 0, 
@@ -649,19 +665,359 @@
   }
 },
 {
-  "pk": 2, 
+  "pk": 3, 
   "model": "cms.cmsplugin", 
   "fields": {
     "rght": 2, 
-    "changed_date": "2014-01-20T14:49:10.375Z", 
+    "changed_date": "2014-01-21T20:32:32.726Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T19:37:26.468Z", 
+    "lft": 1, 
+    "tree_id": 3, 
+    "position": 0, 
+    "placeholder": 6, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 5, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T20:26:36.409Z", 
     "parent": null, 
     "language": "en", 
     "level": 0, 
     "creation_date": "2014-01-20T14:48:29.207Z", 
     "lft": 1, 
-    "tree_id": 2, 
+    "tree_id": 5, 
     "position": 0, 
     "placeholder": 4, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 6, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T20:32:36.491Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T19:37:26.468Z", 
+    "lft": 1, 
+    "tree_id": 6, 
+    "position": 0, 
+    "placeholder": 8, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 7, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:33:13.726Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T20:33:27.742Z", 
+    "lft": 1, 
+    "tree_id": 7, 
+    "position": 0, 
+    "placeholder": 46, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 9, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T20:53:59.398Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T20:50:14.801Z", 
+    "lft": 1, 
+    "tree_id": 9, 
+    "position": 0, 
+    "placeholder": 36, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 10, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T20:54:04.307Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T20:50:14.801Z", 
+    "lft": 1, 
+    "tree_id": 10, 
+    "position": 0, 
+    "placeholder": 38, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 12, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:01:41.313Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T20:59:41.798Z", 
+    "lft": 1, 
+    "tree_id": 12, 
+    "position": 0, 
+    "placeholder": 42, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 13, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:01:46.277Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T20:59:41.798Z", 
+    "lft": 1, 
+    "tree_id": 13, 
+    "position": 0, 
+    "placeholder": 44, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 14, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:04:59.785Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:04:34.356Z", 
+    "lft": 1, 
+    "tree_id": 14, 
+    "position": 0, 
+    "placeholder": 50, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 15, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:05:03.946Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:04:34.356Z", 
+    "lft": 1, 
+    "tree_id": 15, 
+    "position": 0, 
+    "placeholder": 52, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 16, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:13:02.869Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:07:22.066Z", 
+    "lft": 1, 
+    "tree_id": 16, 
+    "position": 0, 
+    "placeholder": 62, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 17, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:13:07.284Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:07:22.066Z", 
+    "lft": 1, 
+    "tree_id": 17, 
+    "position": 0, 
+    "placeholder": 64, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 18, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:14:13.784Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:13:53.985Z", 
+    "lft": 1, 
+    "tree_id": 18, 
+    "position": 0, 
+    "placeholder": 66, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 19, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:14:17.551Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:13:53.985Z", 
+    "lft": 1, 
+    "tree_id": 19, 
+    "position": 0, 
+    "placeholder": 68, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 20, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:15:02.705Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:14:38.452Z", 
+    "lft": 1, 
+    "tree_id": 20, 
+    "position": 0, 
+    "placeholder": 54, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 21, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:15:06.572Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:14:38.452Z", 
+    "lft": 1, 
+    "tree_id": 21, 
+    "position": 0, 
+    "placeholder": 56, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 22, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:16:15.212Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:15:24.956Z", 
+    "lft": 1, 
+    "tree_id": 22, 
+    "position": 0, 
+    "placeholder": 58, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 23, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:16:18.737Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:15:24.956Z", 
+    "lft": 1, 
+    "tree_id": 23, 
+    "position": 0, 
+    "placeholder": 60, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 24, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:33:18.087Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T20:33:27.742Z", 
+    "lft": 1, 
+    "tree_id": 24, 
+    "position": 0, 
+    "placeholder": 48, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 25, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:33:54.244Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:33:45.735Z", 
+    "lft": 1, 
+    "tree_id": 25, 
+    "position": 0, 
+    "placeholder": 91, 
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 26, 
+  "model": "cms.cmsplugin", 
+  "fields": {
+    "rght": 2, 
+    "changed_date": "2014-01-21T21:39:28.279Z", 
+    "parent": null, 
+    "language": "en", 
+    "level": 0, 
+    "creation_date": "2014-01-21T21:33:45.735Z", 
+    "lft": 1, 
+    "tree_id": 26, 
+    "position": 0, 
+    "placeholder": 92, 
     "plugin_type": "TextPlugin"
   }
 },
@@ -685,7 +1041,7 @@
       1, 
       2
     ], 
-    "changed_date": "2014-01-20T14:49:10.389Z", 
+    "changed_date": "2014-01-21T20:26:36.420Z", 
     "limit_visibility_in_menu": null, 
     "parent": null, 
     "publisher_state": 0, 
@@ -718,7 +1074,7 @@
       3, 
       4
     ], 
-    "changed_date": "2014-01-20T14:49:10.320Z", 
+    "changed_date": "2014-01-21T20:26:36.342Z", 
     "limit_visibility_in_menu": null, 
     "parent": null, 
     "publisher_state": 0, 
@@ -753,7 +1109,7 @@
       83, 
       84
     ], 
-    "changed_date": "2014-01-20T02:01:53.918Z", 
+    "changed_date": "2014-01-21T20:32:36.508Z", 
     "limit_visibility_in_menu": null, 
     "parent": 1, 
     "publisher_state": 0, 
@@ -788,7 +1144,7 @@
       85, 
       86
     ], 
-    "changed_date": "2014-01-20T02:01:53.876Z", 
+    "changed_date": "2014-01-21T20:32:36.431Z", 
     "limit_visibility_in_menu": null, 
     "parent": 2, 
     "publisher_state": 0, 
@@ -937,7 +1293,7 @@
   "pk": 13, 
   "model": "cms.page", 
   "fields": {
-    "rght": 18, 
+    "rght": 20, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-02T14:54:05.784Z", 
@@ -971,7 +1327,7 @@
   "pk": 14, 
   "model": "cms.page", 
   "fields": {
-    "rght": 18, 
+    "rght": 20, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-02T14:59:48.078Z", 
@@ -1071,7 +1427,7 @@
   "pk": 17, 
   "model": "cms.page", 
   "fields": {
-    "rght": 17, 
+    "rght": 19, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T16:49:45.851Z", 
@@ -1081,14 +1437,14 @@
     "login_required": false, 
     "created_by": "admin", 
     "publication_end_date": null, 
-    "template": "cms_page.html", 
+    "template": "documents.html", 
     "tree_id": 12, 
     "placeholders": [
       35, 
       36, 
       39
     ], 
-    "changed_date": "2014-01-20T02:03:29.073Z", 
+    "changed_date": "2014-01-21T20:54:04.321Z", 
     "limit_visibility_in_menu": null, 
     "parent": 13, 
     "publisher_state": 0, 
@@ -1105,7 +1461,7 @@
   "pk": 18, 
   "model": "cms.page", 
   "fields": {
-    "rght": 17, 
+    "rght": 19, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T16:50:15.460Z", 
@@ -1115,14 +1471,14 @@
     "login_required": false, 
     "created_by": "admin", 
     "publication_end_date": null, 
-    "template": "cms_page.html", 
+    "template": "documents.html", 
     "tree_id": 6, 
     "placeholders": [
       37, 
       38, 
       40
     ], 
-    "changed_date": "2014-01-20T02:03:29.035Z", 
+    "changed_date": "2014-01-21T20:54:04.242Z", 
     "limit_visibility_in_menu": null, 
     "parent": 14, 
     "publisher_state": 0, 
@@ -1155,7 +1511,7 @@
       41, 
       42
     ], 
-    "changed_date": "2014-01-20T02:03:38.125Z", 
+    "changed_date": "2014-01-21T21:01:46.288Z", 
     "limit_visibility_in_menu": null, 
     "parent": 17, 
     "publisher_state": 0, 
@@ -1188,7 +1544,7 @@
       43, 
       44
     ], 
-    "changed_date": "2014-01-20T02:03:38.089Z", 
+    "changed_date": "2014-01-21T21:01:46.234Z", 
     "limit_visibility_in_menu": null, 
     "parent": 18, 
     "publisher_state": 0, 
@@ -1221,7 +1577,7 @@
       45, 
       46
     ], 
-    "changed_date": "2014-01-20T02:03:45.431Z", 
+    "changed_date": "2014-01-21T21:33:18.098Z", 
     "limit_visibility_in_menu": null, 
     "parent": 17, 
     "publisher_state": 0, 
@@ -1254,7 +1610,7 @@
       47, 
       48
     ], 
-    "changed_date": "2014-01-20T02:03:45.395Z", 
+    "changed_date": "2014-01-21T21:33:18.025Z", 
     "limit_visibility_in_menu": null, 
     "parent": 18, 
     "publisher_state": 0, 
@@ -1271,23 +1627,23 @@
   "pk": 23, 
   "model": "cms.page", 
   "fields": {
-    "rght": 16, 
+    "rght": 18, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:28:54.983Z", 
-    "lft": 7, 
+    "lft": 9, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
     "created_by": "admin", 
     "publication_end_date": null, 
-    "template": "cms_page.html", 
+    "template": "membership.html", 
     "tree_id": 12, 
     "placeholders": [
       49, 
       50
     ], 
-    "changed_date": "2014-01-20T02:03:52.489Z", 
+    "changed_date": "2014-01-21T21:05:03.958Z", 
     "limit_visibility_in_menu": null, 
     "parent": 17, 
     "publisher_state": 0, 
@@ -1304,23 +1660,23 @@
   "pk": 24, 
   "model": "cms.page", 
   "fields": {
-    "rght": 16, 
+    "rght": 18, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:29:25.912Z", 
-    "lft": 7, 
+    "lft": 9, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
     "created_by": "admin", 
     "publication_end_date": null, 
-    "template": "cms_page.html", 
+    "template": "membership.html", 
     "tree_id": 6, 
     "placeholders": [
       51, 
       52
     ], 
-    "changed_date": "2014-01-20T02:03:52.439Z", 
+    "changed_date": "2014-01-21T21:05:03.903Z", 
     "limit_visibility_in_menu": null, 
     "parent": 18, 
     "publisher_state": 0, 
@@ -1337,11 +1693,11 @@
   "pk": 25, 
   "model": "cms.page", 
   "fields": {
-    "rght": 9, 
+    "rght": 11, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:29:46.171Z", 
-    "lft": 8, 
+    "lft": 10, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1353,7 +1709,7 @@
       53, 
       54
     ], 
-    "changed_date": "2014-01-20T02:04:03.758Z", 
+    "changed_date": "2014-01-21T21:15:06.583Z", 
     "limit_visibility_in_menu": null, 
     "parent": 23, 
     "publisher_state": 0, 
@@ -1370,11 +1726,11 @@
   "pk": 26, 
   "model": "cms.page", 
   "fields": {
-    "rght": 9, 
+    "rght": 11, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:30:14.710Z", 
-    "lft": 8, 
+    "lft": 10, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1386,7 +1742,7 @@
       55, 
       56
     ], 
-    "changed_date": "2014-01-20T02:04:03.710Z", 
+    "changed_date": "2014-01-21T21:15:06.528Z", 
     "limit_visibility_in_menu": null, 
     "parent": 24, 
     "publisher_state": 0, 
@@ -1403,11 +1759,11 @@
   "pk": 27, 
   "model": "cms.page", 
   "fields": {
-    "rght": 11, 
+    "rght": 13, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:30:26.453Z", 
-    "lft": 10, 
+    "lft": 12, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1419,7 +1775,7 @@
       57, 
       58
     ], 
-    "changed_date": "2014-01-20T02:04:11.433Z", 
+    "changed_date": "2014-01-21T21:16:18.748Z", 
     "limit_visibility_in_menu": null, 
     "parent": 23, 
     "publisher_state": 0, 
@@ -1436,11 +1792,11 @@
   "pk": 28, 
   "model": "cms.page", 
   "fields": {
-    "rght": 11, 
+    "rght": 13, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:30:44.798Z", 
-    "lft": 10, 
+    "lft": 12, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1452,7 +1808,7 @@
       59, 
       60
     ], 
-    "changed_date": "2014-01-20T02:04:11.397Z", 
+    "changed_date": "2014-01-21T21:16:18.673Z", 
     "limit_visibility_in_menu": null, 
     "parent": 24, 
     "publisher_state": 0, 
@@ -1469,11 +1825,11 @@
   "pk": 29, 
   "model": "cms.page", 
   "fields": {
-    "rght": 13, 
+    "rght": 15, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:31:40.446Z", 
-    "lft": 12, 
+    "lft": 14, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1485,7 +1841,7 @@
       61, 
       62
     ], 
-    "changed_date": "2014-01-20T02:04:18.940Z", 
+    "changed_date": "2014-01-21T21:13:07.295Z", 
     "limit_visibility_in_menu": null, 
     "parent": 23, 
     "publisher_state": 0, 
@@ -1502,11 +1858,11 @@
   "pk": 30, 
   "model": "cms.page", 
   "fields": {
-    "rght": 13, 
+    "rght": 15, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:32:05.980Z", 
-    "lft": 12, 
+    "lft": 14, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1518,7 +1874,7 @@
       63, 
       64
     ], 
-    "changed_date": "2014-01-20T02:04:18.902Z", 
+    "changed_date": "2014-01-21T21:13:07.241Z", 
     "limit_visibility_in_menu": null, 
     "parent": 24, 
     "publisher_state": 0, 
@@ -1535,11 +1891,11 @@
   "pk": 31, 
   "model": "cms.page", 
   "fields": {
-    "rght": 15, 
+    "rght": 17, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:32:16.995Z", 
-    "lft": 14, 
+    "lft": 16, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1551,7 +1907,7 @@
       65, 
       66
     ], 
-    "changed_date": "2014-01-20T02:04:26.721Z", 
+    "changed_date": "2014-01-21T21:14:17.563Z", 
     "limit_visibility_in_menu": null, 
     "parent": 23, 
     "publisher_state": 0, 
@@ -1568,11 +1924,11 @@
   "pk": 32, 
   "model": "cms.page", 
   "fields": {
-    "rght": 15, 
+    "rght": 17, 
     "navigation_extenders": "", 
     "site": 1, 
     "creation_date": "2013-12-05T17:32:42.291Z", 
-    "lft": 14, 
+    "lft": 16, 
     "in_navigation": true, 
     "reverse_id": null, 
     "login_required": false, 
@@ -1584,7 +1940,7 @@
       67, 
       68
     ], 
-    "changed_date": "2014-01-20T02:04:26.685Z", 
+    "changed_date": "2014-01-21T21:14:17.508Z", 
     "limit_visibility_in_menu": null, 
     "parent": 24, 
     "publisher_state": 0, 
@@ -1661,6 +2017,125 @@
     "changed_by": "admin", 
     "publisher_is_draft": false, 
     "published": true
+  }
+},
+{
+  "pk": 35, 
+  "model": "cms.page", 
+  "fields": {
+    "rght": 8, 
+    "navigation_extenders": "", 
+    "site": 1, 
+    "creation_date": "2014-01-21T21:33:34.510Z", 
+    "lft": 7, 
+    "in_navigation": true, 
+    "reverse_id": null, 
+    "login_required": false, 
+    "created_by": "admin", 
+    "publication_end_date": null, 
+    "template": "cms_page.html", 
+    "tree_id": 12, 
+    "placeholders": [
+      91
+    ], 
+    "changed_date": "2014-01-21T21:39:28.290Z", 
+    "limit_visibility_in_menu": null, 
+    "parent": 17, 
+    "publisher_state": 0, 
+    "soft_root": false, 
+    "publication_date": "2014-01-21T21:33:55.284Z", 
+    "publisher_public": 36, 
+    "level": 2, 
+    "changed_by": "admin", 
+    "publisher_is_draft": true, 
+    "published": true
+  }
+},
+{
+  "pk": 36, 
+  "model": "cms.page", 
+  "fields": {
+    "rght": 8, 
+    "navigation_extenders": "", 
+    "site": 1, 
+    "creation_date": "2014-01-21T21:34:00.234Z", 
+    "lft": 7, 
+    "in_navigation": true, 
+    "reverse_id": null, 
+    "login_required": false, 
+    "created_by": "admin", 
+    "publication_end_date": null, 
+    "template": "cms_page.html", 
+    "tree_id": 6, 
+    "placeholders": [
+      92
+    ], 
+    "changed_date": "2014-01-21T21:39:28.218Z", 
+    "limit_visibility_in_menu": null, 
+    "parent": 18, 
+    "publisher_state": 0, 
+    "soft_root": false, 
+    "publication_date": "2014-01-21T21:33:55.284Z", 
+    "publisher_public": 35, 
+    "level": 2, 
+    "changed_by": "admin", 
+    "publisher_is_draft": false, 
+    "published": true
+  }
+},
+{
+  "pk": 3, 
+  "model": "cms.pagemoderatorstate", 
+  "fields": {
+    "action": "ADD", 
+    "message": "", 
+    "created": "2014-01-20T14:54:14.367Z", 
+    "page": 9, 
+    "user": null
+  }
+},
+{
+  "pk": 4, 
+  "model": "cms.pagemoderatorstate", 
+  "fields": {
+    "action": "ADD", 
+    "message": "", 
+    "created": "2014-01-20T14:54:14.387Z", 
+    "page": 11, 
+    "user": null
+  }
+},
+{
+  "pk": 5, 
+  "model": "cms.pagemoderatorstate", 
+  "fields": {
+    "action": "ADD", 
+    "message": "", 
+    "created": "2014-01-20T14:54:14.408Z", 
+    "page": 13, 
+    "user": null
+  }
+},
+{
+  "pk": 6, 
+  "model": "cms.pagemoderatorstate", 
+  "fields": {
+    "action": "ADD", 
+    "message": "", 
+    "created": "2014-01-20T14:54:14.430Z", 
+    "page": 15, 
+    "user": null
+  }
+},
+{
+  "pk": 15, 
+  "model": "cms.pagemoderatorstate", 
+  "fields": {
+    "action": "ADD", 
+    "message": "", 
+    "created": "2014-01-20T14:54:14.622Z", 
+    "page": 33, 
+    "user": null
   }
 },
 {
@@ -1976,7 +2451,7 @@
     "meta_keywords": "", 
     "page_title": "", 
     "language": "en", 
-    "title": "Blocked list", 
+    "title": "Blocked universes", 
     "has_url_overwrite": false, 
     "application_urls": "", 
     "creation_date": "2013-12-05T17:28:13.496Z", 
@@ -1995,7 +2470,7 @@
     "meta_keywords": "", 
     "page_title": "", 
     "language": "en", 
-    "title": "Blocked list", 
+    "title": "Blocked universes", 
     "has_url_overwrite": false, 
     "application_urls": "", 
     "creation_date": "2013-12-05T17:28:13.496Z", 
@@ -2234,17 +2709,195 @@
   }
 },
 {
-  "pk": 1, 
-  "model": "text.text", 
+  "pk": 35, 
+  "model": "cms.title", 
   "fields": {
-    "body": "<p>Home page text</p>"
+    "menu_title": "", 
+    "redirect": "", 
+    "meta_keywords": "", 
+    "page_title": "", 
+    "language": "en", 
+    "title": "Forbidden universes", 
+    "has_url_overwrite": false, 
+    "application_urls": "", 
+    "creation_date": "2014-01-21T21:33:34.531Z", 
+    "page": 35, 
+    "path": "archive/documents/forbidden-list", 
+    "meta_description": "", 
+    "slug": "forbidden-list"
   }
 },
 {
-  "pk": 2, 
+  "pk": 36, 
+  "model": "cms.title", 
+  "fields": {
+    "menu_title": "", 
+    "redirect": "", 
+    "meta_keywords": "", 
+    "page_title": "", 
+    "language": "en", 
+    "title": "Forbidden universes", 
+    "has_url_overwrite": false, 
+    "application_urls": "", 
+    "creation_date": "2014-01-21T21:33:34.531Z", 
+    "page": 36, 
+    "path": "archive/documents/forbidden-list", 
+    "meta_description": "", 
+    "slug": "forbidden-list"
+  }
+},
+{
+  "pk": 1, 
   "model": "text.text", 
   "fields": {
-    "body": "<p>Home page text</p>"
+    "body": "<h2>Welcome to the TTA</h2><p>According to something I Googled, a good front page needs to clearly show who I am, what I do, and what the visitor can do here. It should also have \"calls to action\", like \"Learn more\".</p><p>I'm not messing with styling right now, but when it comes to that, I can access the HTML from within this plugin to add classes and ids and such.</p><h3>Browse the archive</h3><p>We have all the information you need.</p><h3>Learn more about TTA policy</h3><p>We want to make sure our expectations are perfectly clear, so we make them fully available to all TTA members.</p><h3>Connect</h3><p>Meet other TTA members, browse upcoming events and discuss important matters.</p>"
+  }
+},
+{
+  "pk": 3, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Site help</h2><h3>I found a bug.</h3><p>Submit a bug report. Link\u2019s at the bottom of every page. You may call the sysadmin at 99999 ONLY if the problem somehow results in your not being able to use the bug report form.</p><h3>Why isn't there any private messaging?</h3><p>Some people don't want everyone else in the TTA to be able to contact them.</p><h3>I thought of a cool thing for this website! Will you implement it?</h3><p>No.</p><h3>Where are your servers? How am I even accessing them?</h3><p>Magic.</p><h3>When will this website be finished?</h3><p>Never.</p>"
+  }
+},
+{
+  "pk": 5, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Welcome to the TTA</h2><p>According to something I Googled, a good front page needs to clearly show who I am, what I do, and what the visitor can do here. It should also have \"calls to action\", like \"Learn more\".</p><p>I'm not messing with styling right now, but when it comes to that, I can access the HTML from within this plugin to add classes and ids and such.</p><h3>Browse the archive</h3><p>We have all the information you need.</p><h3>Learn more about TTA policy</h3><p>We want to make sure our expectations are perfectly clear, so we make them fully available to all TTA members.</p><h3>Connect</h3><p>Meet other TTA members, browse upcoming events and discuss important matters.</p>"
+  }
+},
+{
+  "pk": 6, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Site help</h2><h3>I found a bug.</h3><p>Submit a bug report. Link\u2019s at the bottom of every page. You may call the sysadmin at 99999 ONLY if the problem somehow results in your not being able to use the bug report form.</p><h3>Why isn't there any private messaging?</h3><p>Some people don't want everyone else in the TTA to be able to contact them.</p><h3>I thought of a cool thing for this website! Will you implement it?</h3><p>No.</p><h3>Where are your servers? How am I even accessing them?</h3><p>Magic.</p><h3>When will this website be finished?</h3><p>Never.</p>"
+  }
+},
+{
+  "pk": 7, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Blocked universes</h2><p>Please note that this page is not about TTA policy. These are universes that travelers simply cannot reach.</p><h3>Works with sovereign deities</h3><p>Narnia<br>The complete works of Tolkien</p><h3>Works with incompatible multiverses</h3><p>Heinlein\u2019s The Number of the Beast<br>Anything from the \u201cMary Sue Hunter\u201d genre, e.g. Protectors of the Plot Continuum<br>Ariadne and the Science</p><h3>Not fiction</h3><p>It should also be noted that the following \"universes\" cannot be reached because they do not exist:</p><p>Religious works and belief systems<br>Artwork without words<br>Anything not consciously created</p>"
+  }
+},
+{
+  "pk": 9, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>TTA guides and membership documents</h2><p>Ja zap zap pari rib pari lalan,<br>dig dari ril lan diz dan du.<br>La dibi dabi dal la rub padi rubi rang,<br>Kuri kang kug kaja kiri kang ku.</p>"
+  }
+},
+{
+  "pk": 10, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>TTA guides and membership documents</h2><p>Ja zap zap pari rib pari lalan,<br>dig dari ril lan diz dan du.<br>La dibi dabi dal la rub padi rubi rang,<br>Kuri kang kug kaja kiri kang ku.</p>"
+  }
+},
+{
+  "pk": 12, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>How the Interpreter works</h2><p>Most of this hasn't been decided yet.</p>"
+  }
+},
+{
+  "pk": 13, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>How the Interpreter works</h2><p>Most of this hasn't been decided yet.</p>"
+  }
+},
+{
+  "pk": 14, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>TTA membership</h2><p>I'm not sure why this is its own page. I might need to do something about that. (But the CMS auto-menu...)</p>"
+  }
+},
+{
+  "pk": 15, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>TTA membership</h2><p>I'm not sure why this is its own page. I might need to do something about that. (But the CMS auto-menu...)</p>"
+  }
+},
+{
+  "pk": 16, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>TTA phone information</h2><h3>History</h3><p>This hasn't been decided yet.</p><h3>How it works</h3><p>Our phones are based on guaranteed-functionality long-range communication devices with thought-sense. The numbers are mostly a formality. We require you to use them so that your call is guaranteed to go where it\u2019s supposed to go.</p><h3>Policy</h3><p>Do not call people over and over. This is considered to be rude. The receiving device will record the fact that you called.<br>Alternate alphabets can be added to your phone on a case-by-case basis. This can be costly for us, so we may request some compensation for this if it is not mission-critical.</p>"
+  }
+},
+{
+  "pk": 17, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>TTA phone information</h2><h3>History</h3><p>This hasn't been decided yet.</p><h3>How it works</h3><p>Our phones are based on guaranteed-functionality long-range communication devices with thought-sense. The numbers are mostly a formality. We require you to use them so that your call is guaranteed to go where it\u2019s supposed to go.</p><h3>Policy</h3><p>Do not call people over and over. This is considered to be rude. The receiving device will record the fact that you called.<br>Alternate alphabets can be added to your phone on a case-by-case basis. This can be costly for us, so we may request some compensation for this if it is not mission-critical.</p>"
+  }
+},
+{
+  "pk": 18, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>The TTA Ruling Council</h2><p>Dummy text! Yay!</p>"
+  }
+},
+{
+  "pk": 19, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>The TTA Ruling Council</h2><p>Dummy text! Yay!</p>"
+  }
+},
+{
+  "pk": 20, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Traveling policy</h2><p>Be prepared.<br>Avoid interference.</p>"
+  }
+},
+{
+  "pk": 21, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Traveling policy</h2><p>Be prepared.<br>Avoid interference.</p>"
+  }
+},
+{
+  "pk": 22, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Trade policy</h2><p>Every vendor reserves the right to set prices, require specific currencies, and reject offers as they please.</p>"
+  }
+},
+{
+  "pk": 23, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Trade policy</h2><p>Every vendor reserves the right to set prices, require specific currencies, and reject offers as they please.</p>"
+  }
+},
+{
+  "pk": 24, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Blocked universes</h2><p>Please note that this page is not about TTA policy. These are universes that travelers simply cannot reach.</p><h3>Works with sovereign deities</h3><p>Narnia<br>The complete works of Tolkien</p><h3>Works with incompatible multiverses</h3><p>Heinlein\u2019s The Number of the Beast<br>Anything from the \u201cMary Sue Hunter\u201d genre, e.g. Protectors of the Plot Continuum<br>Ariadne and the Science</p><h3>Not fiction</h3><p>It should also be noted that the following \"universes\" cannot be reached because they do not exist:</p><p>Religious works and belief systems<br>Artwork without words<br>Anything not consciously created</p>"
+  }
+},
+{
+  "pk": 25, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Forbidden universes</h2><p>The following universes are off-limits to TTA members:</p><p>Star Wars (Force poisoning)<br>The Big Bang Theory</p>"
+  }
+},
+{
+  "pk": 26, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<h2>Forbidden universes</h2><p>The following universes are off-limits to TTA members:</p><p>Star Wars (Force poisoning)<br>The Big Bang Theory</p>"
   }
 }
 ]
