@@ -33,11 +33,14 @@
                     <input type="text" /><br>
                     <input type="submit" value="Pretend to search" />
                 </form> <br />
-                {% lorem %}
+                <!--{% lorem %}-->
+                {% placeholder sidebar_content inherit %}
             </div> <!-- end sidebar -->
 
             <div id="content">
+                {% block breadcrumbs %}
                 <ul id="cms-breadcrumb">{% show_breadcrumb %}</ul>
+                {% endblock breadcrumbs %}
                 {% placeholder base_content %}
                 {% block base_content %}{% endblock %}
             </div>

@@ -15,5 +15,11 @@ Clone the repo
 Put a virtual environment in it
 pip install -r requirements.txt
 python manage.py syncdb --all
-python manage.py loaddata cms.json
+python manage.py loaddata cms.json archive.json community.json
 python manage.py runserver
+
+
+Fixtures
+--------
+cms.json contains NEARLY all CMS-managed content.
+There is a custom plugin defined in the "community" app, so its table is in community.json.

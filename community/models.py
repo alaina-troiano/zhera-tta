@@ -3,6 +3,27 @@ from django.utils import timezone
 from cms.models.pluginmodel import CMSPlugin
 
 
+# A Manager for retrieving past events
+class PastEventManager(models.Manager):
+    def get_query_set(self):
+        qs = super(PastEventManager, self).get_query_set()
+        return qs.filter(end_time__lt=timezone.now()).order_by('-end_time')
+
+
+# A Manager for retrieving ongoing events
+class OngoingEventManager(models.Manager):
+    def get_query_set(self):
+        qs = super(OngoingEventManager, self).get_query_set()
+        return qs.filter(start_time__lt=timezone.now()).filter(end_time__gt=timezone.now()).order_by('start_time')
+
+
+# A Manager for retrieving future events
+class FutureEventManager(models.Manager):
+    def get_query_set(self):
+        qs = super(FutureEventManager, self).get_query_set()
+        return qs.filter(start_time__gt=timezone.now()).order_by('start_time')
+
+
 # Model for storing information about an event that people may wish to attend.
 class Event(models.Model):
     title = models.CharField(max_length=256)
@@ -10,6 +31,13 @@ class Event(models.Model):
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
     description = models.TextField()
+    
+    # This is the default manager; it must be declared first.
+    objects = models.Manager()
+    # Now for the custom managers.
+    past_events = PastEventManager()
+    ongoing_events = OngoingEventManager()
+    future_events = FutureEventManager()
 
     def __unicode__(self):
         return str(self.title)
@@ -22,11 +50,11 @@ class EventPluginModel(CMSPlugin):
     
     def get_list(self):
         if (self.num_to_show == 0): # ongoing events
-            return Event.objects.filter(start_time__lt=timezone.now()).filter(end_time__gt=timezone.now())
+            return Event.ongoing_events.all()[:self.num_to_show]
         if (self.num_to_show > 0): # soonest upcoming events
-            return Event.objects.filter(start_time__gt=timezone.now()).order_by('start_time')[:self.num_to_show]
+            return Event.future_events.all()[:self.num_to_show]
         else: # recently ended events
-            return Event.objects.filter(end_time__lt=timezone.now()).order_by('-end_time')[:(self.num_to_show * -1)]
+            return Event.past_events.all()[:(self.num_to_show * -1)]
     
     def get_type(self):
         if (self.num_to_show == 0):
@@ -35,3 +63,4 @@ class EventPluginModel(CMSPlugin):
             return 'upcoming'
         else:
             return 'recent'
+
