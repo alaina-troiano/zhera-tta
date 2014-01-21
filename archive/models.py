@@ -50,6 +50,9 @@ class Universe(models.Model):
             return None
         return mylist[0]
     contact_person = property(_get_contact_person)
+    
+    def get_absolute_url(self):
+        return reverse('udetail', kwargs={'pk': self.pk})
 
 
 # Model for information about a character
@@ -74,6 +77,9 @@ class Character(models.Model):
             return None
         return mylist[0]
     contact_person = property(_get_contact_person)
+    
+    def get_absolute_url(self):
+        return reverse('cdetail', kwargs={'pk': self.pk})
 
 
 # Connects at most one Character to each Universe, with a couple more details.
@@ -101,4 +107,7 @@ class Artifact(models.Model):
     
     def __unicode__(self):
         return str(self.name)
+    
+    def get_absolute_url(self):
+        return reverse('adetail', kwargs={'pk': self.pk})
 
