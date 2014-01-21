@@ -1,8 +1,5 @@
 """
-This file demonstrates writing tests using the unittest module. These will pass
-when you run "manage.py test".
-
-Replace this with more appropriate tests for your application.
+This is the auto-generated test file. I might have tests of my own in here. Eventually.
 """
 
 from django.test import TestCase

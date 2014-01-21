@@ -5,6 +5,8 @@ from menus.menu_pool import menu_pool
 from cms.menu_bases import CMSAttachMenu
 from .models import Universe, Character, Artifact
 
+# Adds lists and objects from the archive app to the CMS's auto-generated
+# menu so that they will show up in the breadcrumbs in intuitive ways.
 class ArchiveMenu(CMSAttachMenu):
     name = _("Archive menu")
     

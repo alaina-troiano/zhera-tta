@@ -5,7 +5,7 @@ from cms.models.pluginmodel import CMSPlugin
 from models import EventPluginModel
 
 
-# This is a plugin view.
+# A view for a plugin that displays some recent or upcoming events.
 class EventPlugin(CMSPluginBase):
     model = EventPluginModel
     name = _("Events list")

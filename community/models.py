@@ -3,6 +3,7 @@ from django.utils import timezone
 from cms.models.pluginmodel import CMSPlugin
 
 
+# Model for storing information about an event that people may wish to attend.
 class Event(models.Model):
     title = models.CharField(max_length=256)
     location = models.CharField(max_length=256)
@@ -14,7 +15,8 @@ class Event(models.Model):
         return str(self.title)
 
 
-# This is a plugin model (configuration).
+# The model for a plugin that displays some recent or upcoming events.
+# Plugin models are used to define configuration information for the plugin.
 class EventPluginModel(CMSPlugin):
     num_to_show = models.IntegerField()
     
