@@ -9,6 +9,11 @@ Disclaimers
 The information in the fixtures (other than the CMS one) is subject to change and additions.
 
 
+Deployment
+----------
+At the moment, it's configured for SQLite the Django development server. Classy, I know.
+
+
 Quick start
 -----------
 Clone the repo
