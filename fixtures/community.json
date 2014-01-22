@@ -1,0 +1,104 @@
+[
+{
+  "pk": 1, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Serious business.", 
+    "start_time": "2010-04-06T17:00:00Z", 
+    "end_time": "2010-04-07T17:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Council meeting"
+  }
+},
+{
+  "pk": 2, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Serious business.", 
+    "start_time": "2011-04-06T17:00:00Z", 
+    "end_time": "2011-04-07T17:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Council meeting"
+  }
+},
+{
+  "pk": 3, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Serious business.", 
+    "start_time": "2012-04-06T17:00:00Z", 
+    "end_time": "2012-04-06T17:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Council meeting"
+  }
+},
+{
+  "pk": 4, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Serious business.", 
+    "start_time": "2013-04-06T17:00:00Z", 
+    "end_time": "2013-04-07T17:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Council meeting"
+  }
+},
+{
+  "pk": 5, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Serious business.", 
+    "start_time": "2014-04-06T17:00:00Z", 
+    "end_time": "2014-04-07T17:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Council meeting"
+  }
+},
+{
+  "pk": 6, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Serious business.", 
+    "start_time": "2015-04-06T17:00:00Z", 
+    "end_time": "2015-04-07T17:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Council meeting"
+  }
+},
+{
+  "pk": 7, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Learn how to get around without interference.", 
+    "start_time": "2014-01-11T16:00:00Z", 
+    "end_time": "2014-01-11T23:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Stealth workshop"
+  }
+},
+{
+  "pk": 8, 
+  "model": "community.event", 
+  "fields": {
+    "description": "Learn how to get around without interference.", 
+    "start_time": "2014-03-15T15:00:00Z", 
+    "end_time": "2014-03-15T22:00:00Z", 
+    "location": "TTA HQ", 
+    "title": "Stealth workshop"
+  }
+},
+{
+  "pk": 49, 
+  "model": "community.eventpluginmodel", 
+  "fields": {
+    "num_to_show": 3
+  }
+},
+{
+  "pk": 51, 
+  "model": "community.eventpluginmodel", 
+  "fields": {
+    "num_to_show": 3
+  }
+}
+]
