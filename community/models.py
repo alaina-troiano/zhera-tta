@@ -39,6 +39,7 @@ class Event(models.Model):
     ongoing_events = OngoingEventManager()
     future_events = FutureEventManager()
 
+    # TODO: Compare start/end by date(); if equal, say "Month day, time-time"
     def __unicode__(self):
         return str(self.title)
 
