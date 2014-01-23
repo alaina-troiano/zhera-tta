@@ -2,7 +2,7 @@
 
 {% block base_content %}
 
-<p>Test event list</p>
+<h2>Event list</h2>
 
 {% if event_list %}
     <ul>
@@ -10,6 +10,8 @@
             <li><a href="{% url 'event_detail' event.pk %}">{{ event.title }}</a></li>
         {% endfor %}
     </ul>
+{% else %}
+<p>There are no events to display.</p>
 {% endif %}
 
 {% endblock %}

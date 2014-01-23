@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django.core.urlresolvers import reverse
 from cms.models.pluginmodel import CMSPlugin
 
 
@@ -42,6 +43,9 @@ class Event(models.Model):
     # TODO: Compare start/end by date(); if equal, say "Month day, time-time"
     def __unicode__(self):
         return str(self.title)
+    
+    def get_absolute_url(self):
+        return reverse('event_detail', kwargs={'pk': self.pk})
 
 
 # The model for a plugin that displays some recent or upcoming events.
