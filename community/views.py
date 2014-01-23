@@ -9,4 +9,5 @@ class EventListView(ListView):
 
 
 class EventDetailView(DetailView):
+    template_name = "community/event_detail.html"
     model = Event

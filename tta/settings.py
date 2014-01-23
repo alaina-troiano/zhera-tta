@@ -212,3 +212,7 @@ LANGUAGES = [
     ('en', 'English'),
 ]
 
+# *** Other settings added ***
+
+LOGIN_REDIRECT_URL = '/'
+
