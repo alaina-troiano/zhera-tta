@@ -12,14 +12,14 @@ class GameManager(models.Manager):
 # Model for information about a universe
 class Universe(models.Model):
     BOOK = 'Book'
-    COMIC = 'Graphic novel'
+    SEQUENTIAL = 'Sequential art'
     LIVE_ACTION = 'Live-action'
     ANIMATION = 'Animation'
     AUDIO = 'Audio-only'
     GAME = 'Game'
     MEDIUM_CHOICES = (
         (BOOK, 'Book'),
-        (COMIC, 'Graphic novel'),
+        (SEQUENTIAL, 'Sequential art'),
         (LIVE_ACTION, 'Live-action'),
         (ANIMATION, 'Animation'),
         (AUDIO, 'Audio-only'),
