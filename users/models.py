@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from archive import Universe
+from archive.models import Universe
 
 
 class UserProfile(models.Model):
@@ -15,6 +15,9 @@ class UserProfile(models.Model):
 
 class Staff(models.Model):
     user = models.ForeignKey(User)
+    
+    class Meta:
+        verbose_name_plural = 'Staff'
 
 
 class Webmaster(models.Model):

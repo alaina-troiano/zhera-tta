@@ -155,6 +155,7 @@ INSTALLED_APPS = (
     'cms.plugins.inherit',
     'archive',
     'community',
+    'users',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
