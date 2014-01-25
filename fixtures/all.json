@@ -3606,8 +3606,8 @@
   "fields": {
     "medium": "Live-action", 
     "time_difference": "0", 
-    "description": "Parent universe unknown. Alternate form of Power Rangers, branch point prior to 2003.", 
-    "parent": null, 
+    "description": "Alternate form of Power Rangers, branch point prior to 2003.", 
+    "parent": 2, 
     "title": "Hexagon"
   }
 },
@@ -6135,6 +6135,19 @@
     "change_message": "", 
     "user": 1, 
     "content_type": 33
+  }
+},
+{
+  "pk": 81, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-01-25T17:59:10.555Z", 
+    "object_repr": "Hexagon", 
+    "object_id": "4", 
+    "change_message": "Changed parent and description.", 
+    "user": 1, 
+    "content_type": 9
   }
 },
 {
