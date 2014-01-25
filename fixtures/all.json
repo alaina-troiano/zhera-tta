@@ -270,10 +270,37 @@
   }
 },
 {
-  "pk": "ci7eqdjs0urpy9dstskjagbwdvmbhafu", 
+  "pk": 31, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "webmaster", 
+    "name": "webmaster", 
+    "app_label": "users"
+  }
+},
+{
+  "pk": 32, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "userprofile", 
+    "name": "user profile", 
+    "app_label": "users"
+  }
+},
+{
+  "pk": 33, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "staff", 
+    "name": "staff", 
+    "app_label": "users"
+  }
+},
+{
+  "pk": "8ism1hep64nc87qsmc99tuupoci4fuqn", 
   "model": "sessions.session", 
   "fields": {
-    "expire_date": "2014-02-06T20:08:57.779Z", 
+    "expire_date": "2014-02-08T02:25:16.358Z", 
     "session_data": "ZTZiNmFhOWY4NGQ5YzU1MzI0ZWEzMGFmOTkwOTllYTQwODdkMDZmOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
   }
 },
@@ -3739,6 +3766,17 @@
   }
 },
 {
+  "pk": 19, 
+  "model": "archive.universe", 
+  "fields": {
+    "medium": "Book", 
+    "time_difference": "Variable", 
+    "description": "Sabriel et al.", 
+    "parent": 1, 
+    "title": "The Old Kingdom"
+  }
+},
+{
   "pk": 1, 
   "model": "archive.character", 
   "fields": {
@@ -4925,21 +4963,138 @@
   }
 },
 {
+  "pk": 93, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_userprofile", 
+    "name": "Can add user profile", 
+    "content_type": 32
+  }
+},
+{
+  "pk": 94, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_userprofile", 
+    "name": "Can change user profile", 
+    "content_type": 32
+  }
+},
+{
+  "pk": 95, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_userprofile", 
+    "name": "Can delete user profile", 
+    "content_type": 32
+  }
+},
+{
+  "pk": 96, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_staff", 
+    "name": "Can add staff", 
+    "content_type": 33
+  }
+},
+{
+  "pk": 97, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_staff", 
+    "name": "Can change staff", 
+    "content_type": 33
+  }
+},
+{
+  "pk": 98, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_staff", 
+    "name": "Can delete staff", 
+    "content_type": 33
+  }
+},
+{
+  "pk": 99, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_webmaster", 
+    "name": "Can add webmaster", 
+    "content_type": 31
+  }
+},
+{
+  "pk": 100, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_webmaster", 
+    "name": "Can change webmaster", 
+    "content_type": 31
+  }
+},
+{
+  "pk": 101, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_webmaster", 
+    "name": "Can delete webmaster", 
+    "content_type": 31
+  }
+},
+{
   "pk": 1, 
   "model": "auth.user", 
   "fields": {
     "username": "admin", 
-    "first_name": "", 
-    "last_name": "", 
+    "first_name": "Alaina", 
+    "last_name": "Troiano", 
     "is_active": true, 
     "is_superuser": true, 
     "is_staff": true, 
-    "last_login": "2014-01-23T20:08:57.666Z", 
+    "last_login": "2014-01-25T02:25:16Z", 
     "groups": [], 
     "user_permissions": [], 
     "password": "pbkdf2_sha256$10000$t5j7muKm3E3o$j+kcg3tgISYhDXavKhsnprjTbLWssuXD9pygyLQVrNM=", 
     "email": "", 
-    "date_joined": "2014-01-20T14:53:27.973Z"
+    "date_joined": "2014-01-20T14:53:27Z"
+  }
+},
+{
+  "pk": 2, 
+  "model": "auth.user", 
+  "fields": {
+    "username": "staffuser", 
+    "first_name": "Staff", 
+    "last_name": "User", 
+    "is_active": true, 
+    "is_superuser": false, 
+    "is_staff": false, 
+    "last_login": "2014-01-25T02:54:05Z", 
+    "groups": [], 
+    "user_permissions": [], 
+    "password": "pbkdf2_sha256$10000$u7IjtptK8kjA$LNFS8scOpAfgaJVzswOzZ58uXAnL8AgRoU/RHYz2vws=", 
+    "email": "", 
+    "date_joined": "2014-01-25T02:54:05Z"
+  }
+},
+{
+  "pk": 3, 
+  "model": "auth.user", 
+  "fields": {
+    "username": "nonstaff", 
+    "first_name": "Non", 
+    "last_name": "Staff", 
+    "is_active": true, 
+    "is_superuser": false, 
+    "is_staff": false, 
+    "last_login": "2014-01-25T02:54:24Z", 
+    "groups": [], 
+    "user_permissions": [], 
+    "password": "pbkdf2_sha256$10000$utf3BiZuG90L$puzhwmyWj4zunNepzZXwrIvALsEbE/5vdYYDGLnv7nk=", 
+    "email": "", 
+    "date_joined": "2014-01-25T02:54:24Z"
   }
 },
 {
@@ -5876,6 +6031,124 @@
     "change_message": "No fields changed.", 
     "user": 1, 
     "content_type": 17
+  }
+},
+{
+  "pk": 73, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-01-25T02:51:58.433Z", 
+    "object_repr": "The Old Kingdom", 
+    "object_id": "19", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 9
+  }
+},
+{
+  "pk": 74, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-01-25T02:53:25.608Z", 
+    "object_repr": "Webmaster object", 
+    "object_id": "1", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 31
+  }
+},
+{
+  "pk": 75, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-01-25T02:53:48.083Z", 
+    "object_repr": "admin", 
+    "object_id": "1", 
+    "change_message": "Changed password, first_name and last_name.", 
+    "user": 1, 
+    "content_type": 3
+  }
+},
+{
+  "pk": 76, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-01-25T02:54:06.045Z", 
+    "object_repr": "staffuser", 
+    "object_id": "2", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 3
+  }
+},
+{
+  "pk": 77, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-01-25T02:54:13.500Z", 
+    "object_repr": "staffuser", 
+    "object_id": "2", 
+    "change_message": "Changed password, first_name and last_name.", 
+    "user": 1, 
+    "content_type": 3
+  }
+},
+{
+  "pk": 78, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-01-25T02:54:24.224Z", 
+    "object_repr": "nonstaff", 
+    "object_id": "3", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 3
+  }
+},
+{
+  "pk": 79, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-01-25T02:54:30.188Z", 
+    "object_repr": "nonstaff", 
+    "object_id": "3", 
+    "change_message": "Changed password, first_name and last_name.", 
+    "user": 1, 
+    "content_type": 3
+  }
+},
+{
+  "pk": 80, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-01-25T02:54:41.047Z", 
+    "object_repr": "Staff object", 
+    "object_id": "1", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 33
+  }
+},
+{
+  "pk": 1, 
+  "model": "users.staff", 
+  "fields": {
+    "user": 2
+  }
+},
+{
+  "pk": 1, 
+  "model": "users.webmaster", 
+  "fields": {
+    "user": 1
   }
 }
 ]

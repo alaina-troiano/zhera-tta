@@ -18,7 +18,14 @@ class Staff(models.Model):
     
     class Meta:
         verbose_name_plural = 'Staff'
+    
+    def __unicode__(self):
+        return self.user.username
 
 
 class Webmaster(models.Model):
     user = models.ForeignKey(User)
+    
+    def __unicode__(self):
+        return self.user.username
+
