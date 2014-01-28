@@ -63,15 +63,6 @@
   }
 },
 {
-  "pk": 8, 
-  "model": "contenttypes.contenttype", 
-  "fields": {
-    "model": "migrationhistory", 
-    "name": "migration history", 
-    "app_label": "south"
-  }
-},
-{
   "pk": 9, 
   "model": "contenttypes.contenttype", 
   "fields": {
@@ -3332,15 +3323,6 @@
     "key": "menu_cache_menu_nodes_en_1_1_user", 
     "site": 1, 
     "language": "en"
-  }
-},
-{
-  "pk": 1, 
-  "model": "south.migrationhistory", 
-  "fields": {
-    "applied": "2014-01-23T02:07:52.065Z", 
-    "app_name": "archive", 
-    "migration": "0001_initial"
   }
 },
 {

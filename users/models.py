@@ -4,7 +4,7 @@ from archive.models import Universe
 
 
 class UserProfile(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User, unique=True)
     universe = models.ForeignKey(Universe)
     about = models.TextField()
     contact_number = models.IntegerField(null=True, blank=True)
