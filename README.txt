@@ -7,11 +7,12 @@ The Transverse Traveler Association is a group of people with the ability to tra
 Disclaimers
 -----------
 The information in the fixtures (other than the CMS one) is subject to change and additions.
+I'm not using South because it annoys me. You use it once, and it has polluted your database. I don't want to give you my ghost migrations.
 
 
 Deployment
 ----------
-At the moment, it's configured for SQLite the Django development server. Classy, I know.
+At the moment, it's configured for SQLite and the Django development server. Classy, I know.
 
 
 Quick start
@@ -20,11 +21,6 @@ Clone the repo
 Put a virtual environment in it
 pip install -r requirements.txt
 python manage.py syncdb --all
-python manage.py loaddata cms.json archive.json community.json
+python manage.py loaddata all.json
 python manage.py runserver
 
-
-Fixtures
---------
-cms.json contains NEARLY all CMS-managed content.
-There is a custom plugin defined in the "community" app, so its table is in community.json.

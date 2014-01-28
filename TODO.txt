@@ -1,0 +1,125 @@
+Tasks remaining
+(replaces Google doc, for the sake of working offline)
+--------------------------------
+Urgent housekeeping
+    delete database again
+    enter a minimal database and export a fixture
+    put ideas for more database items in a doc
+
+TBD
+    what happens to accepted and unaccepted offers? are we keeping a history?
+
+Notes for later
+    only the owner of the ware can see the list of offers on it (a la Neopets TP)
+
+Functionality
+    CRUD views for archive pages and events
+        link to them, but hide the links from non-privileged users
+        think through each of CRUD with each model
+        only Webmasters can delete anything or update roles
+    Make a bug report model (start with a separate app to put it in)
+
+Content
+    Design council member bio format
+    Mission statement on membership page
+
+Users and permissions
+    Add users with varying permissions to the database; put an explanation of these in the README
+
+Look and feel
+    Restyle from scratch
+    Limit the width of the page
+
+Testing
+    Permissions functional tests
+    Unit tests (??)
+
+Documentation
+    Docstrings
+    Look up what needs to go in a README
+    Edit settings.py; perhaps split into settings/__init__.py and settings/base.py
+
+Polish
+    Confirm that everything fits PEP-8 and the Django style guide
+
+
+--------------------------------
+
+Models
+
+Thread
+    title
+Post
+    text
+    reply_to: FK Post
+    thread
+
+Store
+    FK UserProfile
+    name (of store)
+    contact number (vendors are required to have a TTA phone)
+    policies (TextField)
+Ware
+    name
+    FK Universe
+    type
+        food
+        martial
+        home
+        art
+    description
+    amount (CharField for how much of the thing)
+    price (CharField)
+    timestamp
+Offer
+    FK UserProfile
+    price (CharField)
+    timestamp
+
+
+--------------------------------
+
+Site map (urls)
+* doesn't exist yet
++ needs (functionality) modification
+
+home (currently root in that there’s no slug)
+    help
+    +bug report
+    copyright
+accounts
+    login
+    logout
+    *forgot password, etc.
+profile
+    update
+archive
+    +universes
+        pk
+    +character
+        pk
+    +archive
+        pk
+    documents
+        interpreter
+        blocked-list
+        forbidden-list
+        membership
+            travel
+            trade
+            phone
+            council
+community
+    *forum
+    *events
+    rules
+*marketplace
+    stores
+        pk
+            update
+            front
+            recent
+            items
+                pk
+                    offers
+
