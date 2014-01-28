@@ -2,7 +2,6 @@ Tasks remaining
 (replaces Google doc, for the sake of working offline)
 --------------------------------
 Urgent housekeeping
-    delete database again
     enter a minimal database and export a fixture
     put ideas for more database items in a doc
 
@@ -18,7 +17,9 @@ Functionality
         link to them, but hide the links from non-privileged users
         think through each of CRUD with each model
         only Webmasters can delete anything or update roles
-    Make a bug report model (start with a separate app to put it in)
+    Make an app for the bug report
+        model
+        apphook
 
 Content
     Design council member bio format
