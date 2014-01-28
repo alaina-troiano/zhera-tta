@@ -8,6 +8,7 @@ Urgent housekeeping
 
 TBD
     what happens to accepted and unaccepted offers? are we keeping a history?
+    consider django-reversion
 
 Notes for later
     only the owner of the ware can see the list of offers on it (a la Neopets TP)
@@ -49,8 +50,10 @@ Models
 
 Thread
     title
+    timestamp
 Post
     text
+    timestamp
     reply_to: FK Post
     thread
 
@@ -113,7 +116,7 @@ community
     *forum
     *events
     rules
-*marketplace
+*market
     stores
         pk
             update

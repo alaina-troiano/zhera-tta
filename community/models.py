@@ -47,25 +47,3 @@ class Event(models.Model):
     def get_absolute_url(self):
         return reverse('event_detail', kwargs={'pk': self.pk})
 
-
-# The model for a plugin that displays some recent or upcoming events.
-# Plugin models are used to define configuration information for the plugin.
-class EventPluginModel(CMSPlugin):
-    num_to_show = models.IntegerField()
-    
-    def get_list(self):
-        if (self.num_to_show == 0): # ongoing events
-            return Event.ongoing_events.all()[:self.num_to_show]
-        if (self.num_to_show > 0): # soonest upcoming events
-            return Event.future_events.all()[:self.num_to_show]
-        else: # recently ended events
-            return Event.past_events.all()[:(self.num_to_show * -1)]
-    
-    def get_type(self):
-        if (self.num_to_show == 0):
-            return 'ongoing'
-        if (self.num_to_show > 0):
-            return 'upcoming'
-        else:
-            return 'recent'
-
